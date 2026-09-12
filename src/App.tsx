@@ -4,16 +4,22 @@
 // import viteLogo from './assets/vite.svg'
 // import './App.css'
 
+import Navbar from "./components/Navbar";
+
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        Dev Stack
-      </h1>
-    </div>
-  )
+      <>
+      <Navbar/>
+
+      <main>
+        <h1 className="text-4xl font-bold">
+          Dev Stack
+        </h1>
+      </main>
+    </>
+  );
 }
 
 export default App;
