@@ -4,6 +4,7 @@
 // import viteLogo from './assets/vite.svg'
 // import './App.css'
 
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -12,12 +13,9 @@ function App() {
   return (
       <>
       <Navbar/>
+      <Hero />
 
-      <main>
-        <h1 className="text-4xl font-bold">
-          Dev Stack
-        </h1>
-      </main>
+      
     </>
   );
 }
